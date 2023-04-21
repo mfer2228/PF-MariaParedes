@@ -39,10 +39,72 @@
    </div>
 
 <div class="header"> 
-       
+    <h1 class="palabrasmayores"> ¿Dudas, solicitudes, sugerencias?</h1>
+
+    <h2 class="palabreria" style="background-color: rgb(255, 135, 30);"> 
+        Este es el lugar
+      <p>En tu comunidad existe una problemática que pueda ser un buen proyecto, necesitas ayuda para iniciar en el mundo del escultismo o tienes una sugerencia para nosotros? Lo que tienes que decir nos importa, así que te pedimos que dejes acá lo que desees. Te recordamos primero pasarte por <a href="../pages/preguntas.html">preguntas frecuentes.</a></p>
+    </h2>
+
+    <img class="banner" src="../images/banderas.png" alt="#">
+      
 </div>
 
     <div class="main">
+      <!-- agregar formulario -->
+
+      <form action="#" method="#">
+        <ul>
+         <li>
+           <label for="name">Nombre:</label>
+           <div></div>
+           <input type="text" id="name" name="user_name">
+         </li>
+         <div></div>
+         <li>
+           <label for="mail">Correo electrónico:</label>
+           <div></div>
+           <input type="email" id="mail" name="user_mail">
+         </li>
+         <div></div>
+         <li>
+            <label for="number">Número de teléfono:</label>
+            <div></div>
+            <input type="number" id="numero" name="user_number">
+          </li>
+          <div></div>
+        <li>
+            <label for="select"> Soy un</label>
+            <select id="tipo" name="user_type">
+    
+                <option value="Joven">Joven</option>
+                <option value="Adulto">Adulto</option>
+            </select>
+        </li>
+        <div></div>
+        <li>
+            <label for="select"> Quiero</label>
+
+            <select id="tipo" name="user_type">
+                <option value="unir">Formar parte del movimiento</option>
+                <option value="ayuda">Solicitar ayuda para mi comunidad</option>
+                <option value="sugerencia">Hacer una sugerencia :D</option>
+            </select>
+        </li>
+        <div></div> 
+        <li>
+            <label for="msg">Describe tu solicitud :D</label>
+           <div>
+           <textarea id="msg" name="user_message"></textarea>
+           </div>
+         </li>
+
+        <li class="button">
+            <button type="reset"> Ups, empiezo de cero</button>
+            <button type="submit">Finalizado!</button>
+          </li>
+        </ul>
+       </form>
 
     </div>
 
