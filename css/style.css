@@ -6,6 +6,13 @@
  #ff871e (naranja)
  #fade27 (amarillo)
  */
+/* colores del diseño
+#401240 (morado)
+#f0f8ff (azul del fondo)
+#93c4ff (azul)
+ #ff871e (naranja)
+ #fade27 (amarillo)
+ */
 body {
   background-color: #f0f8ff;
   width: calc(100vw - (100vw - 100%));
@@ -17,9 +24,8 @@ body {
   color: #401240;
   margin: 20px;
   background-color: #fff;
-  width: max-content;
+  width: auto;
   padding: 10px;
-  overflow-wrap: normal;
 }
 
 .navbar nav {
@@ -27,24 +33,6 @@ body {
   text-decoration: none;
   display: flex;
   flex-direction: row;
-}
-
-.palabreria {
-  font-size: xx-large;
-  color: #fff;
-  font-weight: bolder;
-}
-
-.palabreria p {
-  font-size: large;
-  font-weight: lighter;
-  text-emphasis: none;
-}
-
-.palabreria {
-  border: 15px;
-  padding: 50px;
-  margin: 25px;
 }
 
 #logo {
@@ -150,6 +138,13 @@ body {
   padding: 40px;
 }
 
+/* colores del diseño
+#401240 (morado)
+#f0f8ff (azul del fondo)
+#93c4ff (azul)
+ #ff871e (naranja)
+ #fade27 (amarillo)
+ */
 .carousel {
   margin-top: 50px;
 }
@@ -165,11 +160,86 @@ body {
   padding: 40px;
 }
 
+/* colores del diseño
+#401240 (morado)
+#f0f8ff (azul del fondo)
+#93c4ff (azul)
+ #ff871e (naranja)
+ #fade27 (amarillo)
+ */
 .banner {
   height: 300px;
   border-image-slice: fill;
   width: fit-content;
   margin: 25px;
+}
+
+/* colores del diseño
+#401240 (morado)
+#f0f8ff (azul del fondo)
+#93c4ff (azul)
+ #ff871e (naranja)
+ #fade27 (amarillo)
+ */
+/* colores del diseño
+#401240 (morado)
+#f0f8ff (azul del fondo)
+#93c4ff (azul)
+ #ff871e (naranja)
+ #fade27 (amarillo)
+ */
+.palabreria1 {
+  background-color: #fade23;
+  border: 15px;
+  padding: 50px;
+  margin: 25px;
+  font-size: xx-large;
+  color: #fff;
+  font-weight: bolder;
+}
+.palabreria1 p {
+  font-size: large;
+  font-weight: lighter;
+  text-emphasis: none;
+}
+
+.palabreria2 {
+  background-color: #ff871e;
+  border: 15px;
+  padding: 50px;
+  margin: 25px;
+  font-size: xx-large;
+  color: #fff;
+  font-weight: bolder;
+}
+.palabreria2 p {
+  font-size: large;
+  font-weight: lighter;
+  text-emphasis: none;
+}
+
+.palabreria3 {
+  background-color: #93c4ff;
+  border: 15px;
+  padding: 50px;
+  margin: 25px;
+  font-size: xx-large;
+  color: #fff;
+  font-weight: bolder;
+}
+.palabreria3 p {
+  font-size: large;
+  font-weight: lighter;
+  text-emphasis: none;
+}
+
+.imagen {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
