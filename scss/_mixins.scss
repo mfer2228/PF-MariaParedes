@@ -24,7 +24,7 @@
 }
 
 .palabreria1{
-    background-color: #fade23 ;
+    background-color: $amarillo ;
     @include palabreria;
      p {
           @include palabreria-p
@@ -33,7 +33,7 @@
 }
 
 .palabreria2{
-    background-color: #ff871e;
+    background-color: $naranja;
     @include palabreria;
     p {
        @include palabreria-p
@@ -41,7 +41,7 @@
 }
 
 .palabreria3{
-    background-color: #93c4ff;
+    background-color: $azul;
     @include palabreria;
     p {
        @include palabreria-p

@@ -139,7 +139,7 @@ body {
 }
 
 /* colores del diseño
-#401240 (morado)
+$morao (morado)
 #f0f8ff (azul del fondo)
 #93c4ff (azul)
  #ff871e (naranja)
@@ -161,7 +161,7 @@ body {
 }
 
 /* colores del diseño
-#401240 (morado)
+$morao (morado)
 #f0f8ff (azul del fondo)
 #93c4ff (azul)
  #ff871e (naranja)
@@ -181,15 +181,20 @@ body {
  #ff871e (naranja)
  #fade27 (amarillo)
  */
+.preguntas {
+  width: 90%;
+  margin: 5%;
+}
+
 /* colores del diseño
-#401240 (morado)
+$morao (morado)
 #f0f8ff (azul del fondo)
 #93c4ff (azul)
  #ff871e (naranja)
  #fade27 (amarillo)
  */
 .palabreria1 {
-  background-color: #fade23;
+  background-color: #ffbb10;
   border: 15px;
   padding: 50px;
   margin: 25px;

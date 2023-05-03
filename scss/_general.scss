@@ -6,12 +6,19 @@
  #ff871e (naranja)
  #fade27 (amarillo)
  */
+// Paleta de colores
+ $morao:#401240;
+ $fondo:#f0f8ff;
+ $azul:#93c4ff;
+ $naranja:#ff871e;
+ $amarillo:#ffbb10;
 
- body{
-    background-color: #f0f8ff;
+
+ body {
+    background-color: $fondo;
     width: calc(100vw - (100vw - 100%));
 }
-.palabrasmayores {margin-left: 10px; font-weight: bolder; color:#401240 ; margin: 20px;background-color: #fff; width: auto; padding: 10px;}
+.palabrasmayores {margin-left: 10px; font-weight: bolder; color:$morao ; margin: 20px;background-color: #fff; width: auto; padding: 10px;}
 
 .navbar nav {text-emphasis: none; text-decoration: none; display: flex; flex-direction: row ;}
 
@@ -24,7 +31,7 @@
 .cejas {display: flex; flex-direction:row;
     justify-content: flex-start; justify-content: space-around; justify-content: center ; align-items: start;}
 
-.cejas {background-color: #401240; color: #fff;}
+.cejas {background-color: $morao; color: #fff;}
 
 .cejas {
     margin:30px;
@@ -45,7 +52,7 @@
 }
 
 .nav-link {
-    background-color:#401240;
+    background-color:$morao;
     color:#fff;
     text-decoration:none;
     padding:10px 12px;
@@ -57,7 +64,7 @@
 }
 
 .navbar-nav li a {
-    background-color:#401240;
+    background-color:$morao;
     color:#fff;
     text-decoration:none;
     padding:10px 12px;
@@ -69,7 +76,7 @@
 
 .navbar-nav li a:hover {
     background-color: #fff;
-    color: #401240;
+    color: $morao;
 }
 
 .navbar-nav li ul {
@@ -92,8 +99,8 @@
 }
 
 .dropdown-menu-dark {
-    background-color: #401240;
-    border-color: #401240;
+    background-color: $morao;
+    border-color: $morao;
     border-radius: 0%;
 }
 
@@ -102,7 +109,7 @@
 
 #pie {
 width: 100%;
-background-color: #401240;
+background-color: $morao;
 color: #fff;
 padding: 40px;
 }
