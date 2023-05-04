@@ -41,6 +41,12 @@ body {
   align-items: start;
 }
 
+.small {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}
+
 .cejas {
   display: flex;
   flex-direction: row;
@@ -132,6 +138,7 @@ body {
 }
 
 #pie {
+  margin-top: 10px;
   width: 100%;
   background-color: #401240;
   color: #fff;
@@ -160,6 +167,39 @@ $morao (morado)
   padding: 40px;
 }
 
+@media (min-width: 1040px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "cabeza sidebar" "main sidebar" "website-map website-map";
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 10px;
+  }
+  .cabeza {
+    grid-area: cabeza;
+  }
+  .main {
+    grid-area: main;
+  }
+  .sidebar {
+    grid-area: sidebar;
+  }
+  .website-map {
+    grid-area: website-map;
+  }
+  .website-map ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  .website-map ul li ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* colores del diseño
 $morao (morado)
 #f0f8ff (azul del fondo)
@@ -183,7 +223,10 @@ $morao (morado)
  */
 .preguntas {
   width: 90%;
-  margin: 5%;
+}
+.preguntas .accordion-item {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* colores del diseño

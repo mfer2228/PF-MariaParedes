@@ -25,3 +25,29 @@ $morao (morado)
 }
 
 }
+
+@media (min-width: 1040px) {
+    .grid {
+     display: grid;   
+     grid-template-columns: 2fr 1fr;
+     grid-template-rows: auto;
+     grid-template-areas: "cabeza sidebar" "main sidebar" "website-map website-map";
+     column-gap: 10px;
+     row-gap: 10px;
+     margin: 10px;
+     }
+  .cabeza { grid-area:cabeza;}
+  .main { grid-area:main;}
+  .sidebar { grid-area:sidebar;}
+  .website-map { grid-area:website-map; }
+   .website-map ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     list-style: none;
+   } 
+   .website-map ul li ul {
+     display: flex;
+     flex-direction: column;
+   }
+   }

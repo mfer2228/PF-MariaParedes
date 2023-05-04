@@ -10,5 +10,8 @@
  .preguntas
  {
     width: 90%;
-    margin: 5%;
+    .accordion-item{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
  }
