@@ -14,6 +14,7 @@
  $amarillo:#ffbb10;
 
 
+
  body {
     background-color: $fondo;
     width: calc(100vw - (100vw - 100%));
@@ -23,16 +24,13 @@
 .navbar nav {text-emphasis: none; text-decoration: none; display: flex; flex-direction: row ;}
 
 
+
 #logo { width: 100px;
     height: 100px;
     align-items: start ;
 }
 
-.small {
-    width: 300px;
-    height: 300px;
-    align-items: center;
-}
+
 
 .cejas {display: flex; flex-direction:row;
     justify-content: flex-start; justify-content: space-around; justify-content: center ; align-items: start;}
@@ -121,3 +119,19 @@ color: #fff;
 padding: 40px;
 }
 
+@media (max-width: 720px) {
+    .footer, .notas{
+    font-size: 10px;
+    }
+
+    .website-map {
+        img{
+            display: none;
+        }
+    }
+}
+
+p a {
+    font-weight: bolder;
+    color: #fff;
+}

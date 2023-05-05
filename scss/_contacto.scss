@@ -1,0 +1,75 @@
+/* colores del diseño
+#401240 (morado)
+#f0f8ff (azul del fondo)
+#93c4ff (azul)
+ #ff871e (naranja)
+ #fade27 (amarillo)
+ */
+
+ @media (min-width: 1040px) {
+    form{
+    
+    .palabreria1, .palabreria2{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        text-decoration: none;
+        justify-content: space-around;
+    }
+    }
+}
+
+@media (max-width:720px){
+   form 
+   .palabreria1 input
+   {
+    width: 80%;
+}
+}
+.texto{
+    justify-content: space-around;
+    textarea{
+        width: 80%;
+    }
+}
+form{
+    padding: 10px;
+    background-color: #fff;
+    list-style: none;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+}
+ .boton{
+    padding: 20px;
+    justify-content: center;
+    font-weight: bolder;
+    border-color: $morao;
+    color: $morao;
+    background-color: #fff;
+    list-style: none;
+    text-decoration: none;
+
+ }
+
+ .reset:hover{
+    color: #fff;
+    background-color: red;
+ }
+
+ .listo:hover {
+    color: #fff;
+    background-color: rgb(46, 200, 46);
+ }
+
+ label{
+    font-size:medium ;
+ }
+ select{
+    font-size: small;
+ }
+ 

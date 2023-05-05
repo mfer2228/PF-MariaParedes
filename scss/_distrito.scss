@@ -6,3 +6,16 @@ $morao (morado)
  #ff871e (naranja)
  #fade27 (amarillo)
  */
+
+ .btn-primary
+{
+    background-color: #fff;
+    color: $morao;
+    font-weight: bolder;
+    border: #fff;
+}
+
+.btn-primary:hover{
+    background-color: $morao;
+    color: #fff;
+}

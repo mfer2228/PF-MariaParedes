@@ -41,12 +41,6 @@ body {
   align-items: start;
 }
 
-.small {
-  width: 300px;
-  height: 300px;
-  align-items: center;
-}
-
 .cejas {
   display: flex;
   flex-direction: row;
@@ -145,6 +139,19 @@ body {
   padding: 40px;
 }
 
+@media (max-width: 720px) {
+  .footer, .notas {
+    font-size: 10px;
+  }
+  .website-map img {
+    display: none;
+  }
+}
+p a {
+  font-weight: bolder;
+  color: #fff;
+}
+
 /* colores del diseño
 $morao (morado)
 #f0f8ff (azul del fondo)
@@ -229,6 +236,14 @@ $morao (morado)
   margin-bottom: 5%;
 }
 
+@media (max-width: 768px) {
+  .preguntas {
+    font-size: 14px;
+  }
+  .preguntas img {
+    display: none;
+  }
+}
 /* colores del diseño
 $morao (morado)
 #f0f8ff (azul del fondo)
@@ -236,9 +251,20 @@ $morao (morado)
  #ff871e (naranja)
  #fade27 (amarillo)
  */
+.btn-primary {
+  background-color: #fff;
+  color: #401240;
+  font-weight: bolder;
+  border: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #401240;
+  color: #fff;
+}
+
 .palabreria1 {
   background-color: #ffbb10;
-  border: 15px;
   padding: 50px;
   margin: 25px;
   font-size: xx-large;
@@ -253,7 +279,6 @@ $morao (morado)
 
 .palabreria2 {
   background-color: #ff871e;
-  border: 15px;
   padding: 50px;
   margin: 25px;
   font-size: xx-large;
@@ -268,7 +293,6 @@ $morao (morado)
 
 .palabreria3 {
   background-color: #93c4ff;
-  border: 15px;
   padding: 50px;
   margin: 25px;
   font-size: xx-large;
@@ -288,6 +312,77 @@ $morao (morado)
   flex-direction: row;
   justify-content: center;
   margin: 100px;
+}
+
+/* colores del diseño
+#401240 (morado)
+#f0f8ff (azul del fondo)
+#93c4ff (azul)
+ #ff871e (naranja)
+ #fade27 (amarillo)
+ */
+@media (min-width: 1040px) {
+  form .palabreria1, form .palabreria2 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 720px) {
+  form .palabreria1 input {
+    width: 80%;
+  }
+}
+.texto {
+  justify-content: space-around;
+}
+.texto textarea {
+  width: 80%;
+}
+
+form {
+  padding: 10px;
+  background-color: #fff;
+  list-style: none;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+}
+
+.boton {
+  padding: 20px;
+  justify-content: center;
+  font-weight: bolder;
+  border-color: #401240;
+  color: #401240;
+  background-color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+
+.reset:hover {
+  color: #fff;
+  background-color: red;
+}
+
+.listo:hover {
+  color: #fff;
+  background-color: rgb(46, 200, 46);
+}
+
+label {
+  font-size: medium;
+}
+
+select {
+  font-size: small;
 }
 
 /*# sourceMappingURL=style.css.map */
