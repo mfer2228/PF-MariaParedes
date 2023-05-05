@@ -340,6 +340,7 @@ $morao (morado)
 }
 .texto textarea {
   width: 80%;
+  font-size: small;
 }
 
 form {
